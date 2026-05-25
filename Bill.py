@@ -189,7 +189,7 @@ store.process_shopping("252U1R1161", {"I004": 1})
 store.process_shopping("252U1R1163", {"I002": 11})  # Error case
 
 print_summary()
-message = all_persons[1].bills
+message = all_persons[0].bills
 Datte = datetime.datetime.now()
-phone_number = "+919063185101"
+phone_number = "+917416694490"
 pywhatkit.sendwhatmsg(phone_number, str(message), Datte.hour, Datte.minute + 2)
